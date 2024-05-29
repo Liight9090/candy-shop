@@ -66,3 +66,22 @@ body {
     transition: background 300ms;
 }
 
+.seperator {
+    color: #520f18;
+    font-size: 1.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 763px){
+
+    .seperator {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
